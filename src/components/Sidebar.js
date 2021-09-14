@@ -4,9 +4,9 @@ import IconContainer from "./IconContainer";
 
 export default function Sidebar() {
   return (
-    <div className="hidden lg:visible lg:w-1/4 bg-red-300 h-10 p-6 lg:flex flex-col gap-4">
+    <div className="hidden lg:visible lg:w-1/4 py-6 pr-6 lg:flex flex-col gap-4">
       <div className="p-6 bg-gray-100 rounded-xl">
-        <div className="text-2xl font-bold mb-2 text-center">Title</div>
+        <div className="text-2xl font-bold mb-2 text-center">About me</div>
         <img src="https://unsplash.it/600/600" alt="" className="rounded-xl" />
         <p className="text-gray-500 mt-2 leading-5">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
